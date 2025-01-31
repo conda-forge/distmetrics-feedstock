@@ -1,5 +1,5 @@
 {% set name = "distmetrics" %}
-{% set version = "0.0.4" %}
+{% set version = "0.0.5" %}
 {% set python_min = "3.12" %} 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/distmetrics-{{ version }}.tar.gz
-  sha256: c377d7d7e278fa58e43f932e5fe9e212cf3c8704e28d7834925708d30d934bd9
+  sha256: 6f2c518d41632d61b7e05b683dfaf28111c0fd86e4536fa80d0dcc940e49be8d
 
 build:
   noarch: python
