@@ -1,5 +1,5 @@
 {% set name = "distmetrics" %}
-{% set version = "0.0.6" %}
+{% set version = "0.0.7" %}
 {% set python_min = "3.12" %} 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/distmetrics-{{ version }}.tar.gz
-  sha256: ad0db2e523216b5ee5e9fb9cf93eae4c515e2a89f3ab76201c3b13c0e89fb68f
+  sha256: 6c24667f4e7531ba238c1840b584b17b8be93b5ded8e305c084f99006c9e1698
 
 build:
   noarch: python
@@ -40,8 +40,6 @@ requirements:
     - pydantic
     - asf_search
     - tqdm
-    - dill
-    - mpire
     - pandas
 
 test:
@@ -64,4 +62,3 @@ extra:
     - richw7185
     - cmarshak
     - taliboliver
-    - richw7185
