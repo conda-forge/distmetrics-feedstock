@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/distmetrics-{{ version }}.tar.gz
-  sha256: 2ad139d411802e12041a1325a411e78a1809417f3a578e74bb7c92c2d14221d6
+  sha256: 7734c1da4dfd8b6c84f062af8d87bb28c68ef8b69441f90779bb0903868e7137
 
 build:
   noarch: python
