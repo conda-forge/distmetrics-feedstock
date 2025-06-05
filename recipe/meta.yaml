@@ -1,5 +1,5 @@
 {% set name = "distmetrics" %}
-{% set version = "0.0.13" %}
+{% set version = "0.0.14" %}
 {% set python_min = "3.12" %} 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/distmetrics-{{ version }}.tar.gz
-  sha256: 13451ab1cde18b89c5d651002460bc3852c3e96f343f836f3e7254c0632e947a
+  sha256: 9f1419bea672cd8a0dd7e8097c1633dd8b354c712a3fd33659c35705d466600e
 
 build:
   noarch: python
@@ -32,6 +32,7 @@ requirements:
     - pydantic
     - astropy-base
     - einops
+    - compilers
     - backoff
     - asf_search
     - shapely
