@@ -1,5 +1,5 @@
 {% set name = "distmetrics" %}
-{% set version = "1.0.7" %}
+{% set version = "1.0.8" %}
 {% set python_min = "3.12" %} 
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://files.pythonhosted.org/packages/15/0a/26ddc951d6f594ad1581cfe7ca66a46fb0cb9796000c2e25b644df0aaa56/distmetrics-{{ version }}.tar.gz
-  sha256: 7b8f95ccd779449dca059bc98c6a486a2c8f81dc93ded7c7851cb3e6b4d2d741
+  url: https://files.pythonhosted.org/packages/53/65/757c4e73e6031aab346dce77444cedc123959b70cef6a3b16780fc60c5a4/distmetrics-{{ version }}.tar.gz
+  sha256: a3c84741ed6e5f2595a068c3e057b121d2cd17fe3dc409fb7656663abc41fd08
 
 build:
   noarch: python
@@ -33,7 +33,7 @@ requirements:
     - pydantic
     - astropy-base
     - einops
-    - backoff
+    - tenacity
     - asf_search
     - shapely
     - geopandas
